@@ -1,0 +1,27 @@
+.searchbox{
+    width: 70%;
+    position: relative;
+    border: 0;
+    outline: 0;
+    background: none;
+    background-color: #eee;
+    border-radius: 8px;
+    color: #53565A;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.4s ease-out;
+    padding: 10px 40px;
+}
+.searchbox:focus{
+    box-shadow: 0px 0px 8px 3px #4484C4;
+}
+.searchbox__wrap{
+    width: 100%;
+    position: relative;
+}
+.searchbox__wrap i{
+    position: absolute;
+    top: 11px;
+    left: 20px;
+    color: gray;
+}
